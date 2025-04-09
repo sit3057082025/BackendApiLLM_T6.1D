@@ -2,14 +2,13 @@ Flask Backend App
 
 Features:
 1. Huggingface router Inference Provider
-2. Require Huggingface Token/ 
-3. Credit Limit (Check Settings -> Billing)
-4. 
+   Require Huggingface Token/ 
+   Credit Limit (Check Settings -> Billing)
+2. Direct Model Usages or Pipleine
 
 
 Learn about inference providers:
 https://huggingface.co/docs/inference-providers/en/index
-
 
 Pricing and Billing
 
