@@ -8,9 +8,9 @@ app = Flask(__name__)
 # API setup
 API_URL = "https://router.huggingface.co/novita/v3/openai/chat/completions"
 HF_API_TOKEN = os.getenv('HF_API_TOKEN', '')  # Use env var or default
-HEADERS = {"Authorization": "Bearer "}  # Use the env var token
-# MODEL = "deepseek/deepseek-v3-0324"  # Updated to match your payload
-MODEL = "meta-llama/Llama-2-7b-chat-hf"  # Updated to match your payload
+HEADERS = {"Authorization": "Bearer "}
+# MODEL = "deepseek/deepseek-v3-0324"
+MODEL = "meta-llama/Llama-2-7b-chat-hf"
 
 def fetchQuizFromLlama(student_topic):
     print("Fetching quiz from Hugging Face router API")

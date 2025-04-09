@@ -11,8 +11,8 @@ client = InferenceClient(
     provider="novita",
     api_key=HF_API_TOKEN,
 )
-# MODEL = "deepseek/deepseek-v3-0324"  # Original model
-# MODEL = "meta-llama/Llama-2-7b-chat-hf"  # Corrected, valid model name
+# MODEL = "deepseek/deepseek-v3-0324"
+# MODEL = "meta-llama/Llama-2-7b-chat-hf"
 MODEL = "deepseek-ai/DeepSeek-R1"
 
 def fetchQuizFromLlama(student_topic):
