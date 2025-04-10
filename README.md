@@ -3,7 +3,10 @@
 Four files are there:
 1. main.py using "https://router.huggingface.co/novita/v3/openai/chat/completions"
 2. main-inferenceclient.py using unference client.
-3. main-directModel.py usingLoad model directly
+3. main-directModel.py using model directly
+```
+from transformers import AutoProcessor, AutoModelForImageTextToText
+```
 4. main-pipeline.py using a pipeline as a high-level helper
 
 
