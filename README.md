@@ -25,7 +25,7 @@ Instructions:
 5. To run the code: python main.py (or other file names)
 
 Outputs:
-Check on browser: [127.0.0.1:5000](http://127.0.0.1:5000/getQuiz?topic=movies)
+Check on browser: [http://127.0.0.1:5000/getQuiz?topic=movies](http://127.0.0.1:5000/getQuiz?topic=movies)
 Should get something like this:
 
 <img src="img_1.png" width="700" alt="Description">
