@@ -1,7 +1,7 @@
 Instructions:
 1. First clone the repo or download to your local folder.
 2. Run terminal in the project folder.
-   - Make sure python is installed.
+   - Make sure python is installed. https://www.python.org/downloads/
    - Create Virtual environment using this in terminal: python -m venv venv
    - venv folder will be created.
    - now activate virtual environment
@@ -43,4 +43,13 @@ Troubleshooting
 3. Make sure to acknowledge licence in the model site such as https://huggingface.co/google/gemma-3-1b-it
 4. Select most permissions while creating access token.
 5. Try with different models based on quick access. https://huggingface.co/models
+
+Good to know about:
+1. Python https://www.python.org/
+2. Virtual Environments https://docs.python.org/3/library/venv.html
+3. Flask https://flask.palletsprojects.com/en/stable/
+4. Huggingface Transformers https://huggingface.co/docs/transformers/en/index
+
+Further references (From Previous)
+https://github.com/sit3057082024/T-6.1D
 
