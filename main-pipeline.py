@@ -11,7 +11,9 @@ device = 0 if torch.cuda.is_available() else -1
 print(f"Using device: {'GPU' if device >= 0 else 'CPU'}")
 
 # Initialize the pipeline with the specified model
-MODEL = "meta-llama/Llama-3.2-1B"
+# MODEL = "meta-llama/Llama-3.2-1B"
+MODEL = "google/gemma-3-1b-it"
+
 pipe = pipeline(
     "text-generation",
     model=MODEL,
