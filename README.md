@@ -1,4 +1,4 @@
-#File Structure:
+# File Structure:
 
 Four files are there:
 1. main.py using "https://router.huggingface.co/novita/v3/openai/chat/completions"
@@ -7,10 +7,7 @@ Four files are there:
 4. main-pipeline.py using a pipeline as a high-level helper
 
 
-
-
-
-#Instructions:
+# Instructions:
 
 1. First clone the repo or download to your local folder.
 2. Run terminal in the project folder.
