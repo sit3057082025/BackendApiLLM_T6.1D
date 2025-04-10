@@ -41,4 +41,5 @@ Troubleshooting
 1. port 5000 may not be available sometimes, use different post like 5001. Change in android app as well the port number.
 2. Make sure to run  "huggingface-cli login" command in terminal and provide token.
 3. Make sure to acknowledge licence in the model site such as https://huggingface.co/google/gemma-3-1b-it
+4. Select most permissions while creating access token.
 
