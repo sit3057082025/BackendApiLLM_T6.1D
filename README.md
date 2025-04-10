@@ -10,7 +10,7 @@ HEADERS = {"Authorization": "Bearer YOUR_TOKEN"}
 
 2. main-inferenceclient.py using unference client.
 ```
-HF_API_TOKEN = os.getenv('HF_API_TOKEN', '')  # Use env var or default
+HF_API_TOKEN = os.getenv('HF_API_TOKEN', 'YOUR_TOKEN')  # Use env var or default
 client = InferenceClient(
     provider="novita",
     api_key=HF_API_TOKEN,
@@ -19,8 +19,12 @@ client = InferenceClient(
 
 3. main-directModel.py using model directly
 ```
-from transformers import AutoProcessor, AutoModelForImageTextToText
+from transformers import AutoTokenizer, AutoModelForCausalLM
+MODEL = "YOUR MODEL"
+tokenizer = AutoTokenizer.from_pretrained(MODEL)
+model = AutoModelForCausalLM.from_pretrained(MODEL)
 ```
+
 4. main-pipeline.py using a pipeline as a high-level helper
 
 
