@@ -36,7 +36,7 @@ pipe = pipeline(
 
 # Instructions:
 
-1. First clone the repo or download to your local folder.
+## 1. First clone the repo or download to your local folder.
 2. Run terminal in the project folder.
    - Make sure python is installed. https://www.python.org/downloads/
    - Create Virtual environment using this in terminal: ```python -m venv venv```
