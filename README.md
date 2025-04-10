@@ -1,4 +1,4 @@
-File Structure:
+#File Structure:
 Four files are there:
 1. main.py using
    ```
@@ -22,7 +22,7 @@ client = InferenceClient(
  
 5. main-directModel.py using
    ```
-# Load model directly
+Load model directly
 from transformers import AutoProcessor, AutoModelForImageTextToText
 MODEL = "YOUR MODEL HERE"
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
@@ -30,13 +30,13 @@ model = AutoModelForCausalLM.from_pretrained(MODEL)
    ```
 7. main-pipeline.py using
 ```
-# Use a pipeline as a high-level helper
+Use a pipeline as a high-level helper
 from transformers import pipeline
 ```
 
 
 
-Instructions:
+#Instructions:
 1. First clone the repo or download to your local folder.
 2. Run terminal in the project folder.
    - Make sure python is installed. https://www.python.org/downloads/
