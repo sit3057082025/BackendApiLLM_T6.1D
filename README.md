@@ -45,6 +45,7 @@ Troubleshooting
 3. Make sure to acknowledge licence in the model site such as https://huggingface.co/google/gemma-3-1b-it
 4. Select most permissions while creating access token.
 5. Try with different models based on quick access. https://huggingface.co/models
+6. Use small models.
 
 Good to know about:
 1. Python https://www.python.org/
