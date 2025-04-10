@@ -5,16 +5,18 @@ Instructions:
    - Create Virtual environment using this in terminal: python -m venv venv
    - venv folder will be created.
    - now activate virtual environment
-     - For MAC: ```source venv/bin/activate```
-     - For Windows PS: .\venv\Scripts\Activate.ps1
+     - For MAC:
+        ```source venv/bin/activate```
+     - For Windows PS:
+       ```.\venv\Scripts\Activate.ps1```
 3. Now install the libraries
-   - pip install Flask
+   - ```pip install Flask```
      (source: https://flask.palletsprojects.com/en/stable/installation/)
-   - pip install requests
+   - ```pip install requests```
      (source: https://pypi.org/project/requests/)
-   - pip install transformers
+   - ```pip install transformers```
      (source: https://pypi.org/project/transformers/)
-   - pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+   - ```pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126```
      (source: https://pytorch.org/get-started/locally/)
 4. Settings with HuggingFace
    - Signup for Huggingface Account here: https://huggingface.co/
@@ -24,7 +26,7 @@ Instructions:
    <img src="acknowledge_licence.png" width="700" alt="Description">
 
    - Then run this in terminal:
-     huggingface-cli login
+     ```huggingface-cli login```
 
    - It will ask for hugging face token, provide and press enter. Then select Y.
      
