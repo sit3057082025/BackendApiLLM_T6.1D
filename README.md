@@ -27,5 +27,5 @@ Outputs:
 Check on browser: [127.0.0.1:5000](http://127.0.0.1:5000/getQuiz?topic=movies)
 Should get something like this:
 
-<img src="img_1.png" width="300" alt="Description">
+<img src="img_1.png" width="700" alt="Description">
 
