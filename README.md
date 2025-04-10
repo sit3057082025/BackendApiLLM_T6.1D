@@ -39,6 +39,7 @@ Should get something like this:
 <img src="img_1.png" width="600" alt="Description">
 
 Output in terminal:
+
 <img src="img.png" width="500" alt="Description">
 
 
