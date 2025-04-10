@@ -7,7 +7,8 @@ import torch
 app = Flask(__name__)
 
 # Load the model and tokenizer
-MODEL = "meta-llama/Llama-3.2-1B"
+# MODEL = "meta-llama/Llama-3.2-1B"
+MODEL = "google/gemma-3-1b-it"
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model = AutoModelForCausalLM.from_pretrained(MODEL)
 
