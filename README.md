@@ -42,4 +42,5 @@ Troubleshooting
 2. Make sure to run  "huggingface-cli login" command in terminal and provide token.
 3. Make sure to acknowledge licence in the model site such as https://huggingface.co/google/gemma-3-1b-it
 4. Select most permissions while creating access token.
+5. Try with different models based on quick access. https://huggingface.co/models
 
