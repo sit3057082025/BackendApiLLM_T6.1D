@@ -10,7 +10,8 @@ API_URL = "https://router.huggingface.co/novita/v3/openai/chat/completions"
 HF_API_TOKEN = os.getenv('HF_API_TOKEN', '')  # Use env var or default
 HEADERS = {"Authorization": "Bearer "}
 # MODEL = "deepseek/deepseek-v3-0324"
-MODEL = "meta-llama/Llama-2-7b-chat-hf"
+# MODEL = "meta-llama/Llama-2-7b-chat-hf"
+MODEL = "google/gemma-3-1b-it"
 
 def fetchQuizFromLlama(student_topic):
     print("Fetching quiz from Hugging Face router API")
