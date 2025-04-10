@@ -20,8 +20,14 @@ Instructions:
    - Signup for Huggingface Account here: https://huggingface.co/
    - Create access token from here: https://huggingface.co/settings/tokens
    - Get Model "google/gemma-3-1b-it" from https://huggingface.co/google/gemma-3-1b-it.
-   Acknowledge licence.
-<img src="acknowledge_licence.png" width="700" alt="Description">
+      Acknowledge licence.
+   <img src="acknowledge_licence.png" width="700" alt="Description">
+
+   - Then run this in terminal:
+     huggingface-cli login
+
+   - It will ask for hugging face token, provide and press enter. Then select Y.
+     
 5. To run the code: python main.py (or other file names)
 
 Outputs:
@@ -29,4 +35,10 @@ Check on browser: [http://127.0.0.1:5000/getQuiz?topic=movies](http://127.0.0.1:
 Should get something like this:
 
 <img src="img_1.png" width="700" alt="Description">
+
+
+Troubleshooting
+1. port 5000 may not be available sometimes, use different post like 5001. Change in android app as well the port number.
+2. Make sure to run  "huggingface-cli login" command in terminal and provide token.
+3. Make sure to acknowledge licence in the model site such as https://huggingface.co/google/gemma-3-1b-it
 
