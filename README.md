@@ -9,7 +9,7 @@ HEADERS = {"Authorization": "Bearer YOUR_TOKEN"}
 
 2. main-inferenceclient.py using 
 ```
-HF_API_TOKEN = os.getenv('HF_API_TOKEN', 'YOUR_TOKEN')  # Use env var or default
+HF_API_TOKEN = os.getenv('HF_API_TOKEN', 'YOUR_TOKEN')  
 client = InferenceClient(
     provider="novita",
     api_key=HF_API_TOKEN,
