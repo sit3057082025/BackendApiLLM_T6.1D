@@ -9,6 +9,14 @@ HEADERS = {"Authorization": "Bearer YOUR_TOKEN"}
 ```
 
 2. main-inferenceclient.py using unference client.
+```
+HF_API_TOKEN = os.getenv('HF_API_TOKEN', '')  # Use env var or default
+client = InferenceClient(
+    provider="novita",
+    api_key=HF_API_TOKEN,
+)
+```
+
 3. main-directModel.py using model directly
 ```
 from transformers import AutoProcessor, AutoModelForImageTextToText
