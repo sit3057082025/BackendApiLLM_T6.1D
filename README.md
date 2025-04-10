@@ -2,7 +2,8 @@
 
 Four files are there:
 1. main.py using 
-```API_URL = "https://router.huggingface.co/novita/v3/openai/chat/completions"
+```
+API_URL = "https://router.huggingface.co/novita/v3/openai/chat/completions"
 HF_API_TOKEN = os.getenv('HF_API_TOKEN', 'YOUR_TOKEN') 
 HEADERS = {"Authorization": "Bearer YOUR_TOKEN"}
 ```
