@@ -8,7 +8,7 @@ HF_API_TOKEN = os.getenv('HF_API_TOKEN', 'YOUR_TOKEN')
 HEADERS = {"Authorization": "Bearer YOUR_TOKEN"}
 ```
 
-2. main-inferenceclient.py using unference client.
+2. main-inferenceclient.py using 
 ```
 HF_API_TOKEN = os.getenv('HF_API_TOKEN', 'YOUR_TOKEN')  # Use env var or default
 client = InferenceClient(
@@ -17,7 +17,7 @@ client = InferenceClient(
 )
 ```
 
-3. main-directModel.py using model directly
+3. main-directModel.py using 
 ```
 from transformers import AutoTokenizer, AutoModelForCausalLM
 MODEL = "YOUR MODEL"
@@ -25,7 +25,14 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model = AutoModelForCausalLM.from_pretrained(MODEL)
 ```
 
-4. main-pipeline.py using a pipeline as a high-level helper
+4. main-pipeline.py using
+```
+from transformers import pipeline
+MODEL = "YOUR MODEL"
+pipe = pipeline(
+    "text-generation",
+    model=MODEL, ..)
+```
 
 
 # Instructions:
