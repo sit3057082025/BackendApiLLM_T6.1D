@@ -13,7 +13,8 @@ client = InferenceClient(
 )
 # MODEL = "deepseek/deepseek-v3-0324"
 # MODEL = "meta-llama/Llama-2-7b-chat-hf"
-MODEL = "deepseek-ai/DeepSeek-R1"
+# MODEL = "deepseek-ai/DeepSeek-R1"
+MODEL = "google/gemma-3-1b-it"
 
 def fetchQuizFromLlama(student_topic):
     print("Fetching quiz from Hugging Face InferenceClient")
