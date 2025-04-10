@@ -5,7 +5,7 @@ Instructions:
    - Create Virtual environment using this in terminal: python -m venv venv
    - venv folder will be created.
    - now activate virtual environment
-     - For MAC: source venv/bin/activate
+     - For MAC: ```source venv/bin/activate```
      - For Windows PS: .\venv\Scripts\Activate.ps1
 3. Now install the libraries
    - pip install Flask
