@@ -2,6 +2,10 @@
 
 Four files are there:
 1. main.py using "https://router.huggingface.co/novita/v3/openai/chat/completions"
+```API_URL = "https://router.huggingface.co/novita/v3/openai/chat/completions"
+HF_API_TOKEN = os.getenv('HF_API_TOKEN', 'YOUR_TOKEN')  # Use env var or default
+HEADERS = {"Authorization": "Bearer YOUR_TOKEN"}```
+
 2. main-inferenceclient.py using unference client.
 3. main-directModel.py using model directly
 ```
