@@ -21,4 +21,5 @@ Instructions:
    - Create access token from here: https://huggingface.co/settings/tokens
    - Get Model "google/gemma-3-1b-it" from https://huggingface.co/google/gemma-3-1b-it.
    Acknowledge licence.
+5. To run the code: python main.py (or other file names)
 
