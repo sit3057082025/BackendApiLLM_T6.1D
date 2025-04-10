@@ -36,7 +36,10 @@ Outputs:
 Check on browser: [http://127.0.0.1:5000/getQuiz?topic=movies](http://127.0.0.1:5000/getQuiz?topic=movies)
 Should get something like this:
 
-<img src="img_1.png" width="700" alt="Description">
+<img src="img_1.png" width="600" alt="Description">
+
+Output in terminal:
+<img src="img.png" width="500" alt="Description">
 
 
 Troubleshooting
