@@ -1,3 +1,41 @@
+File Structure:
+Four files are there:
+1. main.py using
+   ```
+   API_URL = "https://router.huggingface.co/novita/v3/openai/chat/completions"
+   HF_API_TOKEN = os.getenv('HF_API_TOKEN', '')  
+   HEADERS = {"Authorization": "Bearer "}
+   ```
+   
+   (Need token in code)
+   
+3. main-inferenceclient.py using
+
+```
+HF_API_TOKEN = os.getenv('HF_API_TOKEN', '')
+client = InferenceClient(
+    provider="novita",
+    api_key=HF_API_TOKEN,
+)
+```
+ (Need token in code)
+ 
+5. main-directModel.py using
+   ```
+# Load model directly
+from transformers import AutoProcessor, AutoModelForImageTextToText
+MODEL = "YOUR MODEL HERE"
+tokenizer = AutoTokenizer.from_pretrained(MODEL)
+model = AutoModelForCausalLM.from_pretrained(MODEL)
+   ```
+7. main-pipeline.py using
+```
+# Use a pipeline as a high-level helper
+from transformers import pipeline
+```
+
+
+
 Instructions:
 1. First clone the repo or download to your local folder.
 2. Run terminal in the project folder.
