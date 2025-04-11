@@ -79,7 +79,9 @@ Should get something like this:
 
 <img src="img.png" width="500" alt="Description">
 
-# Short video showing the steps: https://www.youtube.com/watch?v=53L9XfusGNA
+# Short video showing the above steps: 
+
+https://www.youtube.com/watch?v=53L9XfusGNA
 
 # Troubleshooting
 1. port 5000 may not be available sometimes, use different post like 5001. Change in android app as well the port number.
