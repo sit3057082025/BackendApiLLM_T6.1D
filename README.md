@@ -79,7 +79,7 @@ Should get something like this:
 
 <img src="img.png" width="500" alt="Description">
 
-# Short video showing the above steps (Click the thumbnail): 
+# Short video showing the above steps (Click the thumbnail below &#8595;): 
 
 [![Watch the video](https://img.youtube.com/vi/53L9XfusGNA/0.jpg)](https://www.youtube.com/watch?v=53L9XfusGNA)
 
