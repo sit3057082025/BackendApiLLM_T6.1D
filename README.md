@@ -81,7 +81,7 @@ Should get something like this:
 
 # Short video showing the above steps: 
 
-https://www.youtube.com/watch?v=53L9XfusGNA
+[![Watch the video](https://img.youtube.com/vi/53L9XfusGNA/0.jpg)](https://www.youtube.com/watch?v=53L9XfusGNA)
 
 # Troubleshooting
 1. port 5000 may not be available sometimes, use different post like 5001. Change in android app as well the port number.
