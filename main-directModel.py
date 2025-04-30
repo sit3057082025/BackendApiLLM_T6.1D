@@ -90,6 +90,10 @@ def process_quiz(quiz_text):
         options = [match[1].strip(), match[2].strip(), match[3].strip(), match[4].strip()]
         correct_ans = match[5].strip()
 
+        # Skip questions with placeholder text
+        if "[Your question here]" in question or any("[First option]" in opt for opt in options):
+            continue
+
         question_data = {
             "question": question,
             "options": options,
