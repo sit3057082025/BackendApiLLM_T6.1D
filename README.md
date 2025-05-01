@@ -1,6 +1,6 @@
 # File Structure:
 
-Four files are there:
+Four files are there (Use the one that works for you):
 ## 1. main.py using 
 ```
 API_URL = "https://router.huggingface.co/novita/v3/openai/chat/completions"
