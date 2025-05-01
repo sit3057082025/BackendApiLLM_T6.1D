@@ -59,7 +59,7 @@ def fetchQuizFromLlama(student_topic):
             temperature=0.7,
             top_p=0.9,
             do_sample=True,
-            return_full_text=True
+            return_full_text=False,  #True for Full
         )
         # Extract the generated text
         generated_text = result[0]["generated_text"]
